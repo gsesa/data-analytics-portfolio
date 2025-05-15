@@ -1,24 +1,15 @@
-# Data Analytics Portfolio
+# TikTok Claims Classification
 
-Portfolio of data analytics projects using Python. Includes real-world scenarios focused on data cleaning, analysis, and communication of insights. Built to showcase skills in solving business problems through data.
+Project from the Google Advanced Data Analytics Certificate.
 
-## 📁 Projects
+Analyzes user engagement (views, likes, shares, comments) in TikTok videos labeled as either "claim" or "opinion." Includes data cleaning, feature creation, and exploratory analysis to support a machine learning model.
 
-### 1. TikTok Claims Classification
-**Goal:** Analyze and prepare TikTok video data to support a machine learning model that classifies videos as "claim" or "opinion".
+**Key highlights:**
+- Created engagement metrics per view (`likes_per_view`, `shares_per_view`, `comments_per_view`)
+- Found that claim videos have higher engagement than opinion videos
+- Banned and under-review users tend to post highly shared content
+- Dataset is balanced: ~50% claims, ~50% opinions
 
-**Skills Used:**  
-- Python (pandas)
-- Exploratory Data Analysis (EDA)
-- Feature engineering
-- Data storytelling
-
-**Files:**  
-- `notebooks/tiktok_claims_classification.ipynb`  
-- `summary/tiktok_executive_summary.pdf`  
-- `docs/pace_strategy_tiktok.pdf` *(optional)*
-
----
-
-*More projects will be added as the portfolio grows.*
+**Files:**
+- `tiktok_claims_classification.ipyn
 
