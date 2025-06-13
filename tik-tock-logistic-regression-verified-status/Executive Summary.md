@@ -1,4 +1,4 @@
-# TikTok Verified-Status Logistic Regression
+# Executive Summary - TikTok Verified-Status Logistic Regression
 
 ## Objective
 Build a logistic regression model to predict whether a TikTok user is verified, so we can leverage verification behavior when classifying videos as claims vs. opinions.
